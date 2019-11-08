@@ -1,0 +1,32 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        .display-4 {
+            border: 2px solid black;
+            font-size: 90px;
+            position: relative;
+            -webkit-animation: mymove 5s infinite;
+            -webkit-animation-timing-function: linear;
+            animation: mymove 5s infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+        
+        @-webkit-keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 100px;
+            }
+        }
+        
+        .nav-link {
+            font-size: 30px;
+        }
+        
+        .nav-item {
+            padding: 20px;
+            margin-right:
+        }
