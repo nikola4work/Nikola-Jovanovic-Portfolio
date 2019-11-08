@@ -2,8 +2,11 @@
             box-sizing: border-box;
         }
         
+        .jumbotron {
+            padding: 0px;
+        }
+        
         .display-4 {
-            border: 2px solid black;
             font-size: 90px;
             position: relative;
             -webkit-animation: mymove 5s infinite;
@@ -28,5 +31,25 @@
         
         .nav-item {
             padding: 20px;
-            margin-right:
+        }
+        
+        .col-sm-6 {
+            border: 1px solid black;
+        }
+        
+        .col-sm-4 {
+            border: 1px solid black;
+            margin: auto;
+        }
+        
+        img {
+            padding: 20px;
+        }
+        
+        h1 {
+            padding: 20px;
+        }
+        
+        p {
+            margin-top: ;
         }
