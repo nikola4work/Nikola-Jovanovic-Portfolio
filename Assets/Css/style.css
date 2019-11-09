@@ -65,11 +65,12 @@ body {
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
     font-family: "Gloria Hallelujah", cursive;
-    color: wheat;
+    color: white;
 }
 
 .fab {
     color: grey;
+    padding-left: 35px;
 }
 
 .fab:hover {
@@ -85,6 +86,10 @@ img:hover {
     cursor: pointer;
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+}
+
+hr {
+    background-color: white;
 }
 
 @keyframes shake {
@@ -159,24 +164,24 @@ p {
 
 .container-contact {
     padding: 20px;
-    background-color: #ffffff;
     margin-left: -10px;
     font-family: "Dancing Script", cursive;
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
+    color: white;
 }
 
 .form-control {}
 
 .form-group {
     padding: 20px;
-    background-color: #ffffff;
     margin-left: -10px;
     font-family: "Dancing Script", cursive;
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
+    font-size: 20px;
 }
 
 .was-validated {
@@ -186,4 +191,12 @@ p {
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
+    color: white;
+    font-size: 20px;
+    ;
+}
+
+.form {
+    color: white;
+    font-size: 20px;
 }
