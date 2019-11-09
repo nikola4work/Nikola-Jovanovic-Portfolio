@@ -2,8 +2,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../Images/laptop.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .jumbotron {
     padding: 0px;
+    decora
 }
 
 .display-4 {
@@ -15,6 +24,7 @@
     animation: mymove 5s infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
+    color: white;
 }
 
 @-webkit-keyframes mymove {
@@ -33,10 +43,12 @@
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
     font-family: "Gloria Hallelujah", cursive;
+    color: white;
 }
 
 .nav-item {
     padding: 20px;
+    color: wheat;
 }
 
 .col-sm-6 {}
@@ -53,19 +65,62 @@
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
     font-family: "Gloria Hallelujah", cursive;
+    color: wheat;
 }
 
 .fab {
-    color: black;
+    color: grey;
 }
 
 .fab:hover {
     cursor: pointer;
-    color: red;
+    color: black;
 }
 
 img {
     border-radius: 10%;
+}
+
+img:hover {
+    cursor: pointer;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
 
 .row {
@@ -75,6 +130,14 @@ img {
 .footer {
     text-align: center;
     padding-top: 15px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 30px;
 }
 
 p {
@@ -84,10 +147,7 @@ p {
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
-}
-
-.row .footer {
-    background-color: grey;
+    color: white;
 }
 
 .dropdown {
@@ -122,4 +182,8 @@ p {
 .was-validated {
     margin-top: 70px;
     padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
 }
