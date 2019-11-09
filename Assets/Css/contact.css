@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Images/closeup-photo-of-black-and-blue-keyboard-1194713.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    padding: 0px;
+    decora
+}
+
+.display-4 {
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    color: white;
+}
+
+@-webkit-keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 120px;
+    }
+}
+
+.nav-link {
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    font-family: "Gloria Hallelujah", cursive;
+    color: white;
+}
+
+.nav-item {
+    padding: 20px;
+    color: white
+}
+
+.container-contact {
+    padding: 20px;
+    margin-left: -10px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    color: white;
+}
+
+.form-control {}
+
+.form-group {
+    padding: 20px;
+    margin-left: -10px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    font-size: 20px;
+}
+
+.was-validated {
+    margin-top: 90px;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.form {
+    color: white;
+    font-size: 20px;
+}
+
+h3 {
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 15px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 30px;
+}

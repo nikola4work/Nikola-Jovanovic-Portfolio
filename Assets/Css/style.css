@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../Images/laptop.jpg");
+    background-image: url("../Images/computer-keyboard-34153.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,8 +50,6 @@ body {
     padding: 20px;
     color: wheat;
 }
-
-.col-sm-6 {}
 
 .col-sm-3 {
     border: 1px solid black;
@@ -157,46 +155,4 @@ p {
 
 .dropdown {
     margin-top: 30px;
-}
-
-
-/* Contact page*/
-
-.container-contact {
-    padding: 20px;
-    margin-left: -10px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Shadows Into Light", cursive;
-    font-family: "Caveat", cursive;
-    font-family: "Courgette", cursive;
-    color: white;
-}
-
-.form-control {}
-
-.form-group {
-    padding: 20px;
-    margin-left: -10px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Shadows Into Light", cursive;
-    font-family: "Caveat", cursive;
-    font-family: "Courgette", cursive;
-    font-size: 20px;
-}
-
-.was-validated {
-    margin-top: 70px;
-    padding: 20px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Shadows Into Light", cursive;
-    font-family: "Caveat", cursive;
-    font-family: "Courgette", cursive;
-    color: white;
-    font-size: 20px;
-    ;
-}
-
-.form {
-    color: white;
-    font-size: 20px;
 }
