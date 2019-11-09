@@ -93,3 +93,33 @@ p {
 .dropdown {
     margin-top: 30px;
 }
+
+
+/* Contact page*/
+
+.container-contact {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: -10px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+}
+
+.form-control {}
+
+.form-group {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: -10px;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+}
+
+.was-validated {
+    margin-top: 70px;
+    padding: 20px;
+}
