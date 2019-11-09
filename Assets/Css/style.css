@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('') background-size: cover;
-    background-attachment: fixed;
-    font-family: "Satisfy", cursive;
-}
-
 .jumbotron {
     padding: 0px;
 }
@@ -52,6 +46,7 @@ body {
 }
 
 .about {
+    margin-top: 50px;
     margin-left: 35px;
     font-family: "Dancing Script", cursive;
     font-family: "Shadows Into Light", cursive;
@@ -95,49 +90,6 @@ p {
     background-color: grey;
 }
 
-.dropbtn {
-    margin-left: 15px;
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10%;
-}
-
-.dropbtn:hover {
-    cursor: pointer;
-}
-
 .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: black;
+    margin-top: 30px;
 }
