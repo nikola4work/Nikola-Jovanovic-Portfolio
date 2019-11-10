@@ -67,7 +67,9 @@ body {
     font-family: "Courgette", cursive;
 }
 
-.form-control {}
+hr {
+    background-color: white;
+}
 
 .form-group {
     padding: 20px;
@@ -99,7 +101,7 @@ h3 {
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
-    margin-top: 32px;
+    margin-top: 25px;
     margin-left: 30px;
 }
 

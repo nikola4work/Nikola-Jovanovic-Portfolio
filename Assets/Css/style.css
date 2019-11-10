@@ -12,7 +12,6 @@ body {
 
 .jumbotron {
     padding: 0px;
-    decora
 }
 
 .display-4 {
@@ -67,16 +66,6 @@ body {
     font-family: "Courgette", cursive;
     font-family: "Gloria Hallelujah", cursive;
     color: white;
-}
-
-.fab {
-    color: grey;
-    padding-left: 35px;
-}
-
-.fab:hover {
-    cursor: pointer;
-    color: black;
 }
 
 img {
@@ -141,11 +130,11 @@ hr {
     text-align: center;
     padding-top: 15px;
     text-align: left;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Caveat', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Bangers', cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    font-family: "Bangers", cursive;
     color: white;
     font-size: 30px;
 }
