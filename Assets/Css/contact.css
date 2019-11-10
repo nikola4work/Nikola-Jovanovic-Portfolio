@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../Images/closeup-photo-of-black-and-blue-keyboard-1194713.jpg");
+    background-image: url("../Images/abstract-art-blur-bright-373543.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,6 @@ body {
 
 .jumbotron {
     padding: 0px;
-    decora
 }
 
 .display-4 {
@@ -24,7 +23,6 @@ body {
     animation: mymove 5s infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
-    color: white;
 }
 
 @-webkit-keyframes mymove {
@@ -48,7 +46,14 @@ body {
 
 .nav-item {
     padding: 20px;
-    color: white
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-light {
+    color: white;
 }
 
 .container-contact {
@@ -58,7 +63,6 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
-    color: white;
 }
 
 .form-control {}
@@ -80,18 +84,15 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
     font-family: "Courgette", cursive;
-    color: white;
     font-size: 20px;
     margin-left: 50px;
 }
 
 .form {
-    color: white;
     font-size: 20px;
 }
 
 h3 {
-    color: white;
     font-family: "Dancing Script", cursive;
     font-family: "Shadows Into Light", cursive;
     font-family: "Caveat", cursive;
@@ -104,11 +105,11 @@ h3 {
     text-align: center;
     padding-top: 15px;
     text-align: left;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Caveat', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Bangers', cursive;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    font-family: "Bangers", cursive;
     color: white;
     font-size: 30px;
 }
