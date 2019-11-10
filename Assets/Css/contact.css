@@ -3,11 +3,12 @@
 }
 
 body {
-    background-image: url("../Images/abstract-art-blur-bright-373543.jpg");
+    background-image: url("../Images/photography-of-macbook-half-opened-on-white-wooden-surface-633409.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .jumbotron {
@@ -23,6 +24,7 @@ body {
     animation: mymove 5s infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
+    color: white;
 }
 
 @-webkit-keyframes mymove {
