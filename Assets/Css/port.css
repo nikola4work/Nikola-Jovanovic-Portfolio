@@ -15,8 +15,8 @@ body {
 }
 
 .display-4 {
-    font-family: "Dancing Script", cursive;
-    font-size: 60px;
+    font-size: 90px;
+    font-family: "Mogra", cursive;
     position: relative;
     -webkit-animation: mymove 5s infinite;
     -webkit-animation-timing-function: linear;
@@ -36,13 +36,10 @@ body {
 }
 
 .nav-link {
-    font-size: 35px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Shadows Into Light", cursive;
-    font-family: "Caveat", cursive;
-    font-family: "Courgette", cursive;
-    font-family: "Gloria Hallelujah", cursive;
-    color: white;
+    font-size: 40px;
+    font-family: "Lemonada", cursive;
+    font-family: "VT323", monospace;
+    font-family: "Lacquer", sans-serif;
 }
 
 .nav-item {
@@ -59,6 +56,9 @@ body {
 
 .about {
     margin-top: 40px;
+    font-size: 70px;
+    font-family: "Lemonada", cursive;
+    font-family: "VT323", monospace;
 }
 
 .container-work {
@@ -79,8 +79,9 @@ body {
     background: rgba(0, 0, 0, 0.5);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+    width: 465px;
+    padding: 5px;
+    font-family: "Lemonada", cursive;
 }
 
 .img-fluid:hover {
@@ -89,4 +90,17 @@ body {
 
 .img-fluid {
     margin-top: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 15px;
+    text-align: left;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    font-family: "Bangers", cursive;
+    color: white;
+    font-size: 30px;
 }
