@@ -58,6 +58,10 @@ body {
     color: white;
 }
 
+.navbar-toggler-icon {
+    background-color: black;
+}
+
 .container-contact {
     padding: 20px;
     margin-left: -10px;

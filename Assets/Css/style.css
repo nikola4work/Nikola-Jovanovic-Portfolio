@@ -53,6 +53,10 @@ body {
     background-color: white;
 }
 
+.navbar-toggler-icon {
+    background-color: black;
+}
+
 .navbar-light {
     color: white;
 }

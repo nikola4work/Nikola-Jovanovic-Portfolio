@@ -3,11 +3,12 @@
 }
 
 body {
-    background-image: url("");
+    background-image: url("../Images/close-up-photo-ofg-light-bulb-716398.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .jumbotron {
@@ -40,6 +41,11 @@ body {
     font-family: "Lemonada", cursive;
     font-family: "VT323", monospace;
     font-family: "Lacquer", sans-serif;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
 }
 
 .nav-item {
@@ -47,7 +53,7 @@ body {
 }
 
 .navbar-toggler {
-    background-color: white;
+    background-color: black;
 }
 
 .navbar-light {
@@ -56,15 +62,77 @@ body {
 
 .about {
     margin-top: 40px;
-    font-size: 70px;
-    font-family: "Lemonada", cursive;
-    font-family: "VT323", monospace;
+    font-size: 50px;
+    font-family: "Mogra", cursive;
+    font-family: "Trade Winds", cursive;
+    text-align: center;
+}
+
+.dropbtn {
+    margin-top: 55px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    margin-left: 80px;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: 60px;
+    color: black;
+}
+
+button {
+    background-color: #241e20;
+    color: white;
+}
+
+button:hover {
+    outline: 1px solid white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 119px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 80px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    cursor: pointer;
+}
+
+.fab {
+    padding-left: 20px;
+}
+
+hr {
+    background-color: white;
 }
 
 .container-work {
     max-width: 960px;
     position: relative;
     margin: 0 auto;
+    text-align: center;
 }
 
 .container-work img {
@@ -82,14 +150,18 @@ body {
     width: 465px;
     padding: 5px;
     font-family: "Lemonada", cursive;
+    font-size: 12px;
+    line-height: 1.5rem;
 }
 
 .img-fluid:hover {
     cursor: pointer;
+    outline: 1px solid white;
 }
 
 .img-fluid {
     margin-top: 100px;
+    padding: 5px;
 }
 
 .footer {
