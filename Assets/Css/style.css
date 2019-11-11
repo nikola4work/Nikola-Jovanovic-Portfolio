@@ -1,3 +1,5 @@
+/*STYLE FOR ABOUT ME PAGE*/
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +11,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* jumbotron*/
 
 .jumbotron {
     padding: 0px;
@@ -34,6 +39,12 @@ body {
         left: 120px;
     }
 }
+
+
+/*jumbotron ends*/
+
+
+/* start of nav*/
 
 .nav-link {
     font-size: 35px;
@@ -61,6 +72,12 @@ body {
     color: white;
 }
 
+
+/* end of nav*/
+
+
+/* about me*/
+
 .about {
     margin-top: 50px;
     margin-left: 35px;
@@ -71,6 +88,9 @@ body {
     font-family: "Gloria Hallelujah", cursive;
     color: white;
 }
+
+
+/*profile-image styling*/
 
 img {
     border-radius: 10%;
@@ -127,9 +147,28 @@ hr {
     }
 }
 
+
+/* profile-image ends*/
+
 .row {
     margin: 40px;
 }
+
+
+/* paragraph about me*/
+
+p {
+    font-size: 25px;
+    line-height: 2.5rem;
+    font-family: "Dancing Script", cursive;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Caveat", cursive;
+    font-family: "Courgette", cursive;
+    color: white;
+}
+
+
+/* footer*/
 
 .footer {
     text-align: center;
@@ -144,16 +183,5 @@ hr {
     font-size: 30px;
 }
 
-p {
-    font-size: 25px;
-    line-height: 2.5rem;
-    font-family: "Dancing Script", cursive;
-    font-family: "Shadows Into Light", cursive;
-    font-family: "Caveat", cursive;
-    font-family: "Courgette", cursive;
-    color: white;
-}
 
-.dropdown {
-    margin-top: 30px;
-}
+/*footer ends*/

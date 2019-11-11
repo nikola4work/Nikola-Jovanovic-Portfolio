@@ -1,3 +1,5 @@
+/*STYLE FOR CONTACT PAGE*/
+
 * {
     box-sizing: border-box;
 }
@@ -10,6 +12,9 @@ body {
     background-size: cover;
     color: white;
 }
+
+
+/* jumbotron*/
 
 .jumbotron {
     padding: 0px;
@@ -46,6 +51,12 @@ body {
     color: white;
 }
 
+
+/*jumbotron ends*/
+
+
+/* start of nav*/
+
 .nav-item {
     padding: 20px;
 }
@@ -61,6 +72,12 @@ body {
 .navbar-toggler-icon {
     background-color: black;
 }
+
+
+/* end of nav*/
+
+
+/* contact container*/
 
 .container-contact {
     padding: 20px;
@@ -109,6 +126,9 @@ h3 {
     margin-left: 30px;
 }
 
+
+/*footer*/
+
 .footer {
     text-align: center;
     padding-top: 15px;
@@ -121,3 +141,6 @@ h3 {
     color: white;
     font-size: 30px;
 }
+
+
+/*end of footer*/

@@ -1,3 +1,5 @@
+/*STYLE FOR PORTOFOLIO ME PAGE*/
+
 * {
     box-sizing: border-box;
 }
@@ -10,6 +12,9 @@ body {
     background-size: cover;
     color: white;
 }
+
+
+/* jumbotron*/
 
 .jumbotron {
     padding: 0px;
@@ -36,6 +41,12 @@ body {
     }
 }
 
+
+/*jumbotron ends*/
+
+
+/* start of nav*/
+
 .nav-link {
     font-size: 40px;
     font-family: "Lemonada", cursive;
@@ -60,6 +71,12 @@ body {
     color: white;
 }
 
+
+/* end of nav*/
+
+
+/* about me*/
+
 .about {
     margin-top: 40px;
     font-size: 50px;
@@ -67,6 +84,9 @@ body {
     font-family: "Trade Winds", cursive;
     text-align: center;
 }
+
+
+/*button for social links*/
 
 .dropbtn {
     margin-top: 55px;
@@ -128,6 +148,9 @@ hr {
     background-color: white;
 }
 
+
+/* main container for work display*/
+
 .container-work {
     max-width: 960px;
     position: relative;
@@ -154,15 +177,59 @@ hr {
     line-height: 1.5rem;
 }
 
+
+/*styling for img*/
+
 .img-fluid:hover {
     cursor: pointer;
     outline: 1px solid white;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 .img-fluid {
     margin-top: 100px;
     padding: 5px;
 }
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+/*footer*/
 
 .footer {
     text-align: center;
@@ -177,3 +244,6 @@ hr {
     font-size: 30px;
     margin-top: 20px;
 }
+
+
+/*end of footer*/
