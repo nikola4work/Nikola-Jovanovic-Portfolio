@@ -20,8 +20,9 @@ body {
 }
 
 .display-4 {
+    margin-top: 70px;
     font-family: "Dancing Script", cursive;
-    font-size: 80px;
+    font-size: 90px;
     position: relative;
     -webkit-animation: mymove 5s infinite;
     -webkit-animation-timing-function: linear;

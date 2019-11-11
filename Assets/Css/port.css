@@ -21,6 +21,7 @@ body {
 }
 
 .display-4 {
+    margin-top: 70px;
     font-size: 90px;
     font-family: "Mogra", cursive;
     position: relative;
