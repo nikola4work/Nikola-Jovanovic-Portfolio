@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("../Images/photography-of-macbook-half-opened-on-white-wooden-surface-633409.jpg");
+    background-image: url("../Images/blue-and-red-light-from-computer-1933900.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,6 +125,12 @@ hr {
     color: #ffffff;
     background: #232323;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.btn:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 h3 {
