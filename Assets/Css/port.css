@@ -81,7 +81,7 @@ body {
 /* about me*/
 
 .about {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 50px;
     font-family: "Mogra", cursive;
     font-family: "Trade Winds", cursive;
@@ -94,7 +94,7 @@ body {
 /*button for social links*/
 
 .dropbtn {
-    margin-top: 55px;
+    margin-top: 70px;
     padding: 15px;
     font-size: 16px;
     border: none;
